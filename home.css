@@ -37,7 +37,7 @@ header ul li {
 }
 
 header ul li a:hover {
-    border-bottom: 1px solid rgb(152,251,152);
+    border-bottom: 1px solid #ff3b10;
     opacity: 0.7;
 }
 
@@ -67,16 +67,17 @@ h1 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3em;
     font-variant: small-caps;
+	color:#ff3b10;
 }
 
 span {
-    color: rgb(152,251,152);
+    color: #ff3b10;
 }
 
 a {
     display: block;
     text-decoration: none;
-    color: rgb(152,251,152);
+    color: #ff3b10;
 }
 
 
@@ -117,16 +118,9 @@ a {
 }
 
 .container div h2 {
-    color: rgb(80, 200, 120);
+    color: #ff3b10;
     text-align: center;
     font-size: 2.5em;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.container div h3 {
-    color: rgb(80, 200, 120);
-    text-align: center;
-    font-size: 2em;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
