@@ -44,3 +44,8 @@ textarea {
     height: auto;
     
 }
+.logoImage {
+    float: right;
+    height: 5em;
+    width: 12em;
+}
