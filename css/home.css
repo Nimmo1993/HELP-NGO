@@ -19,13 +19,8 @@ header {
 img {
     float: left;
     width: 12em;
-<<<<<<< HEAD:home.css
     height: 3.5em;
-image-resolution:300dpi;
-perspective: 1000px;
-=======
     height: 6em;
->>>>>>> 5532a2e3684ed10643c6d8f1d766d1dd6db6d9c5:css/home.css
 }
 
 header ul {
