@@ -12,7 +12,49 @@
     position: absolute;
 
 }
+header {
+    position: fixed;
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    padding: 0.5em;
+    margin: 0;
+    height: 6em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
 
+img {
+    float: left;
+    width: 12em;
+    height: 3.5em;
+    height: 6em;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: #ff3b10;
+}
+
+header ul {
+    padding: 1em;
+    display: inline;
+}
+
+header ul li {
+    font-size: 1.5em;
+    float: right;
+    display: inherit;
+    padding: 1.2em;
+    list-style-type: none;
+    font-variant: small-caps;
+	color:#ff3b10;
+}
+
+header ul li a:hover {
+    border-bottom: 1px solid #ff3b10;
+    opacity: 0.7;
+}
 .text-input,
 .full-name,
 .title-text,
@@ -43,4 +85,48 @@ textarea {
     width: 100%;
     height: auto;
 
+}
+.fa {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 1em;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.3em 0.5em;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: rgb(59, 89, 152);
+  color: white;
+}
+
+.fa-google {
+  background-color: rgb(221, 75, 57);
+  color: white;
+}
+
+.fa-instagram {
+  background-color: rgb(18, 86, 136);
+  color: white;
+}
+
+.fa-youtube {
+  background-color: rgb(187, 0, 0);
+  color: white;
+}
+
+footer {
+    margin-top: 2em;
+    padding: 1em;
+}
+
+footer div{
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }
