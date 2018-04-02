@@ -100,7 +100,6 @@ footer div{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-
 }
 
 
@@ -120,7 +119,6 @@ footer div{
     text-align: justify;
     padding: 10px;
 	color: #ff3b10;;
-
 }
 
 .appr h2 {
@@ -141,7 +139,6 @@ p {
 }
 
 @media screen and (max-width: 680px) {
-
     .appr {
         display: block;
         width: 100%;
