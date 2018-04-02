@@ -1,4 +1,40 @@
-img {
+.slider-img {
 	width: 100%;
 	height: 600px;
+}
+
+/* card styling*/
+/*styling image*/
+.card-img-top{
+	height: 300px;
+	padding: 10px;
+}
+/*styling card header*/
+.card-title{
+	color:red;
+}
+/* styling card description*/
+.card-text{
+	color: red;
+}
+/*removing padding from card body*/
+.card-body{
+	padding: 10px;
+}
+/* decreasing padding in card footer*/
+.card-footer{
+	padding: 2px;
+}
+/*styling the page heading*/
+.work{
+	color:red;
+	font-size: 30px;
+	text-align: center;
+
+}
+.container-fluid{
+	background: linear-gradient(to bottom,#ffcdd2 0%,red 100%);
+	width:100%;
+	margin:0px;
+	padding:50px;
 }

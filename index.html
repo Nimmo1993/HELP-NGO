@@ -1,28 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>HELP NGO</title>
+    <title>HELP@NGO</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Macondo|Roboto+Slab|Source+Sans+Pro|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="home.css">
+              
+       <script >
+            function myFunction() {
+            var x = document.getElementById("my-header-container");
+            if (x.className === "header-container") {
+            x.className += " responsive";
+            } else {
+                    x.className = "header-container";
+                    }
+            }
+          </script>
 </head>
 <body>
-    <header>
+      
+    
+    <header class="header-container" id="my-header-container">
         <img src="logo.jpg">
+        
         <ul>
             <li><a href="member.html">Members</a></li>
             <li><a href="help.html">Help</a></li>
-            <li><a href="appreciation.html">Appreciation</a></li>
+            <li><a href="Appreciations.html">Appreciation</a></li>
             <li><a href="work.html">Works</a></li>
             <li><a href="index.html">Home</a></li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </ul>
+       
     </header>
+    
+    
+
+     
+    
+    
     <section class="info">
         <div class="bgimage"></div>
-        <h1 class=>HELP@NGO<b></br>LETS HELP EACH OTHER</h1>
+        <h1 class=>HELP@NGO<b></br>LET'S HELP EACH OTHER</h1>
     </section>
     <section class="container">
         <div id="about">
@@ -53,7 +76,7 @@
                     <button type="submit">SUBMIT</button>
                 </p>
                 <p>
-                    <button type="reset">RESET</button>
+                    <button type="submit">RESET</button>
                 </p>
                 <p>Don't have an account? <a href="#">Sign Up</a> now!</p>
             </form>
@@ -61,10 +84,10 @@
     </section>
     <footer>
         <div>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-google"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-youtube"></a>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp" class="fa fa-facebook"></a>
+            <a href="https://www.google.co.in/" class="fa fa-google"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
         </div>
         <div>
             All Rights Reserved.<br>
