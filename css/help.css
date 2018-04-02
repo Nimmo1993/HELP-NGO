@@ -10,7 +10,7 @@
     width: 100%;
     height: auto;
     position: absolute;
-    
+
 }
 
 .text-input,
@@ -42,10 +42,5 @@ textarea {
     align-content: center;
     width: 100%;
     height: auto;
-    
-}
-.logoImage {
-    float: right;
-    height: 5em;
-    width: 12em;
+
 }

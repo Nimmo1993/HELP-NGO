@@ -4,74 +4,42 @@ body {
     background-color: black;
 }
 
-.header-container {
+header {
     position: fixed;
     background-color: black;
     opacity: 0.7;
     width: 100%;
     padding: 0.5em;
     margin: 0;
-    height: 3.5em;
+    height: 6em;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    overflow:hidden;
 }
 
 img {
     float: left;
     width: 12em;
-    height: 3.5em;
+    height: 6em;
 }
 
-.header-container ul {
+header ul {
     padding: 1em;
     display: inline;
-    
 }
 
-.header-container .icon{
-    display:none;
-}
-
-@media screen and (max-width: 500px) {
-  .header-container ul a:not(:first-child) {display: none;}
-  .header-container ul a.icon {
-    float: left;
-    display:block;
-  }
-}
-@media screen and (max-width: 500px) {
-  .header-container .responsive {position: relative;}
-  .header-container .responsive ul a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .header-container .responsive ul a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-.header-container ul li {
-    font: 1.5 100px/1.5 'Pacifico', Helvetica, sans-serif;
-    color: #2b2b2b;
-    text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
-    font-size: 1.3em;
+header ul li {
+    font-size: 1.5em;
     float: right;
     display: inherit;
-    padding: 1.0em;
-    list-style-type:none;
+    padding: 1.2em;
+    list-style-type: none;
     font-variant: small-caps;
-    
 }
 
-.header-container ul li a:hover {
+header ul li a:hover {
     border-bottom: 1px solid #ff3b10;
-    opacity: 0.7;   
+    opacity: 0.7;
 }
-
 
 .info {
     margin: 0;
@@ -81,12 +49,12 @@ img {
     text-align: center;
 }
 
- .bgimage {
+div.bgimage {
     position: absolute;
-    top = 0;    
-    height: 70%;
-    background: url('index1.jpg') 0 0 no-repeat; 
+    top: 0;
     width: 100%;
+    height: 70%;
+    background: url('../images/index1.jpg') center fixed no-repeat;
     background: cover;
     z-index: -1;
     opacity: 0.7;
@@ -135,17 +103,17 @@ a {
 }
 
 #about:hover {
-    background: url("about.jpg") center no-repeat;
+    background: url("../images/about.jpg") center no-repeat;
     padding: 1em 5em;
 }
 
 #mission:hover {
-    background: url("mission.jpg") center no-repeat;
+    background: url("../images/mission.jpg") center no-repeat;
     box-shadow: none;
 }
 
 #vision:hover {
-    background: url("vision.jpg") center no-repeat;
+    background: url("../images/vision.jpg") center no-repeat;
     box-shadow: none;
 }
 
@@ -197,7 +165,7 @@ a {
 }
 
 .userid {
-    background: url("index2.jpg") center fixed no-repeat;
+    background: url("../images/index2.jpg") center fixed no-repeat;
     height: 300px;
     padding: 5em;
     margin-top: 5em;
