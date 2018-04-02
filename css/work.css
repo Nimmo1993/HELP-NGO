@@ -1,4 +1,4 @@
-slider-img {
+.slider-img {
 	width: 100%;
 	height: 600px;
 }
@@ -7,6 +7,7 @@ slider-img {
 /*styling image*/
 .card-img-top{
 	height: 300px;
+	padding: 10px;
 }
 /*styling card header*/
 .card-title{
@@ -18,11 +19,11 @@ slider-img {
 }
 /*removing padding from card body*/
 .card-body{
-	padding: 5px;
+	padding: 10px;
 }
 /* decreasing padding in card footer*/
 .card-footer{
-	padding: 2px;
+	padding: 10px;
 }
 /*styling the page heading*/
 .work{
