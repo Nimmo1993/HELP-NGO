@@ -21,6 +21,8 @@ img {
     float: left;
     width: 12em;
     height: 3.5em;
+image-resolution:300dpi;
+perspective: 1000px;
 }
 
 .header-container ul {
