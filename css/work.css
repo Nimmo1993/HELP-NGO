@@ -54,6 +54,31 @@ header {
     margin: 0;
     height: 6em;
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	z-index: 1;
+}
+.logo-img {
+	float: left;
+	height: 5em;
+	width: auto;
+
+}
+.header-link {
+	float: right;
+	display: inline;
+	padding: 15px;
+	color: #fb4f29;
+	list-style-type: none;
+	padding: 20px;
+}
+.header-a {
+	color: #fb4f29;
+	font-variant: small-caps;
+	font-size: 20px;
+}
+.header-a:hover {
+	color: #fb4f29;
+	text-decoration-style: none;
+	opacity: 0.7;
 }
 
