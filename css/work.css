@@ -33,7 +33,7 @@
 	text-align: center;
 
 }
-.container-fluid{
+.contain{
 	background-color:#fb4f29;
 	width:100%;
 	margin:0px;
@@ -59,6 +59,10 @@ header {
 }
 */
 /*styling navbar*/
+.navbar{
+  position: fixed;
+  width: 100%;
+}
 .nav-item a.nav-link{
 	width:150px;
 	text-align: center;
