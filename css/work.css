@@ -1,3 +1,4 @@
+/*styling carousel*/
 .slider-img {
 	width: 100%;
 	height: 600px;
@@ -44,7 +45,7 @@
 .carousel-caption {
    position: center;
 }
-
+/*
 header {
     position: fixed;
     background-color: black;
@@ -56,4 +57,68 @@ header {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 }
+*/
+/*styling navbar*/
+.nav-item a.nav-link{
+	width:150px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	color:#e33c17!important;
+	font-size: 20px;
 
+}
+.nav-item a.nav-link:hover{
+ text-decoration: underline;
+ color:#e33c17!important;
+
+}
+nav.bg-dark{
+	background-color: black!important;
+	opacity: 0.7;
+}
+/*styling the footer*/
+.fa {
+    padding:5px;
+    font-size:25px;
+    width: 35px;
+    height:35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.3em 0.5em;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: rgb(59, 89, 152);
+  color: white;
+}
+
+.fa-google {
+  background-color: rgb(221, 75, 57);
+  color: white;
+}
+
+.fa-instagram {
+  background-color: rgb(18, 86, 136);
+  color: white;
+}
+
+.fa-youtube {
+  background-color: rgb(187, 0, 0);
+  color: white;
+}
+.foot{
+    margin-top:0px;
+    padding: 1em;
+    background-color:black;
+}
+
+.foot .down{
+    color: black;
+    text-align: center;
+    padding: 0.5em;
+}
