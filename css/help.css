@@ -166,3 +166,13 @@ textarea:focus {
     font-family: 'Raleway', sans-serif;
     color: #ddd;
 }
+footer {
+    margin-top: 2em;
+    padding: 1em;
+}
+
+footer div{
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
