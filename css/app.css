@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+	background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    padding: 0.5em;
+    margin: 0;
+    height: 6em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    float: left;
+    width: 12em;
+    height: 6em;
+}
+
+header ul {
+    padding: 1em;
+    display: inline;
+}
+
+header ul li {
+    font-size: 1.5em;
+    float: right;
+    display: inherit;
+    padding: 1.2em;
+    list-style-type: none;
+    font-variant: small-caps;
+	color:#ff3b10;
+}
+
+header ul li a:hover {
+    border-bottom: 1px solid #ff3b10;
+    opacity: 0.7;
+}
+h1 {
+    padding: 5em 0 3em 0;
+    margin: 0;
+    color: #ff3b10;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: rgb(59, 89, 152);
+  color: white;
+}
+
+.fa-google {
+  background-color: rgb(221, 75, 57);
+  color: white;
+}
+
+.fa-instagram {
+  background-color: rgb(18, 86, 136);
+  color: white;
+}
+
+.fa-youtube {
+  background-color: rgb(187, 0, 0);
+  color: white;
+}
+
+
+footer {
+    margin-top: 2em;
+    padding: 1em;
+}
+
+footer div{
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+
+#apprs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+.appr {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid grey;
+    -webkit-box-shadow: 9px 11px 29px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 9px 11px 29px -9px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    height: 30%;
+	float: left;
+}
+
+.appr p {
+    text-align: justify;
+    padding: 10px;
+	color: #ff3b10;;
+}
+
+.appr h2 {
+    font-family: 'IBM Plex Serif', serif;
+	justify-content: center;
+}
+
+div.appr img {
+    width: 200px;
+	height: 400px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 680px) {
+    .appr {
+        display: block;
+        width: 100%;
+        margin: 5px 10px 5px 10px;
+    }
+}

@@ -1,0 +1,46 @@
+.need-help-form {
+    border: 1px rgb(255, 255, 255);
+    max-width: 500px;
+    margin: auto;
+    color: #ff3b10;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.body {
+    width: 100%;
+    height: auto;
+    position: absolute;
+
+}
+
+.text-input,
+.full-name,
+.title-text,
+textarea {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.description-text {
+    height: 100px;
+}
+
+.submit-btn {
+    padding: 10px;
+    width: 100px;
+    border: 1px solid #ff3b10;
+    background: black;
+    color: #ff3b10;
+    font-family: 'Ubuntu', sans-serif;
+    font-variant: small-caps;
+    font-size: 18px;
+}
+.img-banner {
+    align-content: center;
+    width: 100%;
+    height: auto;
+
+}

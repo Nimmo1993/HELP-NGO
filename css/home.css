@@ -1,0 +1,356 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    padding: 0.5em;
+    margin: 0;
+    height: 6em;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    float: left;
+    width: 12em;
+    height: 3.5em;
+    height: 6em;
+}
+
+header ul {
+    padding: 1em;
+    display: inline;
+}
+
+header ul li {
+    font-size: 1.5em;
+    float: right;
+    display: inherit;
+    padding: 1.2em;
+    list-style-type: none;
+    font-variant: small-caps;
+}
+
+header ul li a:hover {
+    border-bottom: 1px solid #ff3b10;
+    opacity: 0.7;
+}
+
+nav {
+    display: none;
+}
+
+.info {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+div.bgimage {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 70%;
+    background: url('../images/index1.jpg') center fixed no-repeat;
+    background: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+h1 {
+    padding: 5em 0 3em 0;
+    margin: 0;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3em;
+    font-variant: small-caps;
+    color:#ff3b10;
+}
+
+h1 span {
+    font-size: inherit;
+    color: white;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #ff3b10;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5em;
+    padding: 1em 3em;
+    margin-top: 5em;
+    color: white;
+}
+
+#about {
+    grid-column: 1/3;
+    box-shadow: none;
+}
+
+.container div {
+    padding: 2em 5em;
+    box-shadow: 0.5em 0.5em 5em rgba(200, 200, 200, 0.5);
+    transition-property: background padding box-shadow;
+    transition-duration: 1s;
+    background-size: cover;
+}
+
+#about:hover {
+    background: url("../images/about.jpg") center no-repeat;
+    padding: 1em 5em;
+}
+
+#mission:hover {
+    background: url("../images/mission.jpg") center no-repeat;
+    box-shadow: none;
+}
+
+#vision:hover {
+    background: url("../images/vision.jpg") center no-repeat;
+    box-shadow: none;
+}
+
+.container div h2 {
+    color: #ff3b10;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container div p {
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: 'Macondo', cursive;
+}
+
+.fa {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 1em;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.3em 0.5em;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background-color: rgb(59, 89, 152);
+  color: white;
+}
+
+.fa-google {
+  background-color: rgb(221, 75, 57);
+  color: white;
+}
+
+.fa-instagram {
+  background-color: rgb(18, 86, 136);
+  color: white;
+}
+
+.fa-youtube {
+  background-color: rgb(187, 0, 0);
+  color: white;
+}
+
+.userid {
+    background: url("../images/index2.jpg") center fixed no-repeat;
+    height: 300px;
+    padding: 5em;
+    margin-top: 5em;
+}
+
+.userid div {
+    align-content: center;
+}
+
+.userid div {
+    background-color: black;
+    padding: 2em 5em;
+    color: white;
+    margin: auto;
+    width: 50%;
+    opacity: 0.7;
+}
+
+.userid div form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+
+.userid div form p {
+    margin: 0;
+    padding: 0;
+}
+
+.userid div form p * {
+    width: 100%;
+    padding: 0.5em 0;
+}
+
+.userid div form input, textarea {
+    border: 1px solid rgb(152,251,152);
+}
+
+.userid div form label {
+    display: block;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 200;
+    text-align: left;
+}
+
+.userid div form button {
+    background-color: rgb(250,250,255);
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 1em black;
+    outline: 0;
+}
+
+.userid div form button:hover, button:focus {
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 1em black;
+    cursor: pointer;
+    border: 0.1em solid white;
+}
+
+.userid div form p a {
+    display: inline;
+}
+
+
+footer {
+    margin-top: 2em;
+    padding: 1em;
+}
+
+footer div{
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 950px) {
+    nav {
+        display: block;
+        padding-bottom: 1em;
+        margin: 1.5em 0;
+        text-align: center;
+        color: white;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    img {
+        float: none;
+        align-content: center;
+    }
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+    nav {
+        display: block;
+        padding-bottom: 1em;
+        margin: 1.5em 0;
+        text-align: center;
+        color: white;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    img {
+        float: none;
+        align-content: center;
+    }
+
+    #about {
+        box-shadow: 0.5em 0.5em 5em rgba(200, 200, 200, 0.5);
+    }
+
+    #mission, #vision {
+        grid-column: 1/3;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    nav {
+        display: block;
+        padding-bottom: 1em;
+        margin: 1.5em 0;
+        text-align: center;
+        color: white;
+    }
+
+    nav:hover {
+        cursor: pointer;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    img {
+        float: none;
+        align-content: center;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        padding: 5em 0 5em 0;
+    }
+
+    .container {
+        padding: 1em;
+    }
+
+    .container div {
+        padding: 2em 1em;
+    }
+
+    #about {
+        box-shadow: 0.5em 0.5em 5em rgba(200, 200, 200, 0.5);
+    }
+
+    #about:hover {
+        padding: 2em 1em;
+    }
+
+    #mission, #vision {
+        grid-column: 1/3;
+    }
+
+    .userid {
+        padding: 10em 0;
+    }
+
+    .userid div form p {
+        grid-column: 1/3;
+    }
+}
