@@ -14,7 +14,7 @@ h1{
 
 }
 header {
-	position: fixed;
+	  position: fixed;
     z-index: 1000000;
     background-color: black;
     opacity: 0.7;
@@ -50,11 +50,9 @@ header ul li a:hover {
     border-bottom: 1px solid #ff3b10;
     opacity: 0.7;
 }
-
 nav {
     display: none;
 }
-
 img{
 	width: 100%;
 	padding-top: 20px;
@@ -116,13 +114,11 @@ a {
 	color: #ff3b10;
 	display: block;
 }
-
 .row .column:before{
  
 	content: '';
 	position: absolute;
-	bottom:-120%; 
-	
+	bottom:-120%; 	
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -130,7 +126,6 @@ a {
 	z-index: 1;
 	transition: .5s;
 	mix-blend-mode: soft-light;
-	
 }
 .row .column:hover:before{
 	bottom:0px;
@@ -157,7 +152,6 @@ a {
 	z-index: 2;
 }
 
-
 .row .column:hover .details{
 	bottom: 0px;
 }
@@ -178,7 +172,6 @@ a {
 	text-transform: uppercase;
 	position: relative;
 	top:-6px;
-	
 }
 .row .column .details ul{
 	margin: 0;
@@ -236,6 +229,7 @@ a {
   background-color: rgb(187, 0, 0);
   color: white;
 }
+
 .bottom_footer{
 	 clear: both;
     position: relative;

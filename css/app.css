@@ -21,6 +21,15 @@ img {
     width: 12em;
     height: 6em;
 }
+a {
+    display: block;
+    text-decoration: none;
+    color: #ff3b10;
+}
+
+.orange-text{
+	color:#ff3b10;
+}
 
 header ul {
     padding: 1em;
@@ -118,7 +127,7 @@ footer div{
 .appr p {
     text-align: justify;
     padding: 10px;
-	color: #ff3b10;;
+	color: #ff3b10;
 }
 
 .appr h2 {
@@ -144,4 +153,8 @@ p {
         width: 100%;
         margin: 5px 10px 5px 10px;
     }
+}
+
+.centered{
+	text-align: center;
 }
