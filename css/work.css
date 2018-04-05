@@ -67,7 +67,7 @@ header {
   width: 100%;
 }
 .nav-item a.nav-link{
-	width:150px;
+	/*width:150px;*/
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
 	color:#e33c17!important;
