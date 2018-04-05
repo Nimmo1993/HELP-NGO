@@ -42,6 +42,10 @@ header ul li a:hover {
     opacity: 0.7;
 }
 
+nav {
+    display: none;
+}
+
 .info {
     margin: 0;
     padding: 0;
@@ -68,11 +72,12 @@ h1 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3em;
     font-variant: small-caps;
-	color:#ff3b10;
+    color:#ff3b10;
 }
 
-span {
-    color: #ff3b10;
+h1 span {
+    font-size: inherit;
+    color: white;
 }
 
 a {
@@ -101,6 +106,7 @@ a {
     box-shadow: 0.5em 0.5em 5em rgba(200, 200, 200, 0.5);
     transition-property: background padding box-shadow;
     transition-duration: 1s;
+    background-size: cover;
 }
 
 #about:hover {
@@ -191,14 +197,6 @@ a {
     grid-gap: 2em;
 }
 
-.userid div form p.full {
-    grid-column: 1/3;
-}
-
-.userid div form p.full+p {
-    grid-column: 1/2;
-}
-
 .userid div form p {
     margin: 0;
     padding: 0;
@@ -223,11 +221,11 @@ a {
 
 .userid div form button {
     background-color: rgb(250,250,255);
-	font-weight: 900;
+    font-weight: 900;
     border: none;
     border-radius: 5px;
     box-shadow: 5px 5px 1em black;
-	outline: 0;
+    outline: 0;
 }
 
 .userid div form button:hover, button:focus {
@@ -252,4 +250,107 @@ footer div{
     color: white;
     text-align: center;
     padding: 0.5em;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 950px) {
+    nav {
+        display: block;
+        padding-bottom: 1em;
+        margin: 1.5em 0;
+        text-align: center;
+        color: white;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    img {
+        float: none;
+        align-content: center;
+    }
+
+}
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+    nav {
+        display: block;
+        padding-bottom: 1em;
+        margin: 1.5em 0;
+        text-align: center;
+        color: white;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    img {
+        float: none;
+        align-content: center;
+    }
+
+    #about {
+        box-shadow: 0.5em 0.5em 5em rgba(200, 200, 200, 0.5);
+    }
+
+    #mission, #vision {
+        grid-column: 1/3;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    nav {
+        display: block;
+        padding-bottom: 1em;
+        margin: 1.5em 0;
+        text-align: center;
+        color: white;
+    }
+
+    nav:hover {
+        cursor: pointer;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    img {
+        float: none;
+        align-content: center;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        padding: 5em 0 5em 0;
+    }
+
+    .container {
+        padding: 1em;
+    }
+
+    .container div {
+        padding: 2em 1em;
+    }
+
+    #about {
+        box-shadow: 0.5em 0.5em 5em rgba(200, 200, 200, 0.5);
+    }
+
+    #about:hover {
+        padding: 2em 1em;
+    }
+
+    #mission, #vision {
+        grid-column: 1/3;
+    }
+
+    .userid {
+        padding: 10em 0;
+    }
+
+    .userid div form p {
+        grid-column: 1/3;
+    }
 }
