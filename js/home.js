@@ -1,3 +1,4 @@
+
 window.onload = init;
 
 var menu = ["Works", "Appreciation", "Help", "Members"];
