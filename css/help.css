@@ -3,7 +3,7 @@ body {
     padding: 0;
 	background-color: #000;
 }
-
+/*
 .header-container {
     position: fixed;
     background-color: #000;
@@ -20,9 +20,8 @@ body {
     padding: 1em;
     display: inline;
 }
-
-.header-container ul li {
-    /* font: 1.5 100px/1.5 'Pacifico', Helvetica, sans-serif; */
+.header-container ul li {*/
+    /* font: 1.5 100px/1.5 'Pacifico', Helvetica, sans-serif; 
 	font-family: Ubuntu, sans-serif;
 	line-height: 1.5;
     color: #2b2b2b;
@@ -52,7 +51,30 @@ body {
     float: left;
     padding: 0.5em;
 }
+*/
+/*style for navbar*/
+.navbar{
+  /*position: fixed;*/
+  width: 100%;
+}
+.nav-item a.nav-link{
+    /*width:150px;*/
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color:#e33c17!important;
+    font-size: 20px;
 
+}
+.nav-item a.nav-link:hover{
+ text-decoration: underline;
+ color:#e33c17!important;
+
+}
+nav.bg-dark{
+    background-color: black!important;
+    opacity: 0.7;
+}
+/*navbar ends here*/
 .img-banner {
     align-content: center;
     width: 100%;
