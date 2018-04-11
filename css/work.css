@@ -1,4 +1,7 @@
 /*styling carousel*/
+body{
+  background-color: #000;
+}
 .slider-img {
   /*overflow: hidden;*/
   width: 100%;
@@ -63,7 +66,7 @@ header {
 */
 /*styling navbar*/
 .navbar{
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
 }
 .nav-item a.nav-link{
